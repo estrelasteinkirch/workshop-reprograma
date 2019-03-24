@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', 'Bree Serif', serif, Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: white;
+}
+
+h1{
+    color: white;
+    margin: 0;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Bree Serif';
+    font-size: 25px;
+    color: rgb(123, 60, 133);
+}
+.titulo-capa{
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 2px 2px 2px #010101;
+}
+
+.subtitulo-capa{
+    font-size: 20px;
+    margin: 10px 20px 30px 20px;
+    text-shadow: 2px 2px 2px #010101;
+}
+
+.titulo-infos{
+    font-family: 'Bree Serif';
+    font-size: 35px;
+    color: rgb(203, 151, 203);
+    margin: 0px 30px;
+}
+
+.infos{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2rem;
+}
+
+.texto, .lista{
+    /* width: 43%; */
+    display: block;
+    margin: 0px 30px;
+    vertical-align: top;
+}
+
+.paragrafo1 {
+    font-size: 25px;
+}
+
+.paragrafo2 {
+    font-size: 20px;
+}
+
+ul{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.capa{
+    background-image: url(../img/foto0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 44vh;
+    color: white;
+}
+
+.veja-mais{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: purple;
+    border-radius: 3rem;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+img {
+    width: 50px;
+}
+
+.redes-sociais{
+    margin: 50px auto;
+    display: block;
+    justify-content: center;   
+}
+
+.quadradinho-roxo{
+    margin: 20px auto;
+    background: rgb(206, 151, 206);
+    text-align: center;
+    padding: 15px 25px;
+    width: 200px;
+    border-radius: 2rem;
+    box-shadow: 0px 1px 1px 1px #454444;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.veja-meu-cv{
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: purple;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    display: BLOCK;
+    border-radius: 3rem;
+    border: 3px solid purple;
+
+}
+
+.rodape{
+    text-align: center;
+    color: darkgrey;
+    font-size: 15px;
+}
+
+
+/* quando tiver 1080 pixels e for no máximo 2010, faça o código abaixo: */
+@media(min-width:1080px) and (max-width:2010px){
+    .capa {
+        height: 90vh;
+    }
+
+    .titulo-capa {
+        font-size: 40px;
+    }
+    
+    .subtitulo-capa{
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .texto, .lista {
+        width: 43%;
+        display: inline-block;
+        margin: 0px 30px;
+        vertical-align: top;
+    }
+    .veja-meu-cv {
+        display: inline-block;
+    }
+
+
+    .redes-sociais{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;  
+    }
+    
+    .quadradinho-roxo{
+        margin: 20px auto;
+    }
+
+}
